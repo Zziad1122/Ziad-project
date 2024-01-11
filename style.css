@@ -1,0 +1,104 @@
+* {
+    font-family:'Poppins',sans-serif;
+}
+body{
+    background-color: rgb(244, 240, 234);
+}
+.navbar, .navbar-nav, .nav-link {
+    background-color:#2b81ac;
+    color: #f2ece4 !important;
+    padding: 5px 1%;
+}
+.navbar-brand{
+    color: #050504 !important;
+}
+.navbar{
+    position: relative;
+}
+a{
+    color: inherit;
+}
+a:focus, a:hover{
+    color: white !important;
+}
+.navbar-collapse{
+    flex-grow: 0;
+    width: 291px;
+    margin-left: 33%;
+
+}
+.carousel{
+    margin-bottom: 5%;
+}
+h5{
+    font-weight: bold;
+}
+.carousel-caption{
+    background-color: rgba(67, 87, 171, 0.5);
+}
+
+.carousel-control-next, .carousel-control-prev :focus{
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.carousel-control-prev, .carousel-control-next :focus{
+    background-color: rgba(111, 106, 186, 0.5); 
+}
+.card-img, .card-img-top{
+    max-height: 190px;
+    opacity: 0.9;
+    object-fit: cover;
+}
+.footer{
+    text-align: center;
+    margin-top: 50px !important;    
+    background-color: inherit;
+}
+.card{
+    border: #4a95ba solid 1px;
+    height: 100%;
+}
+
+.card:hover{
+    color:    #4377c4;
+    background-color: #f8f9fa;
+    .card-img-top{
+        opacity: 1;
+    }
+}
+.footer-text{
+    color: #1499dc !important;
+}
+.form-title{
+    text-align: center;
+    margin: 2% 0;
+}
+.form-group{
+    margin-top: 1%;
+}
+.navbar-toggler{
+    border: none !important;
+    
+}
+.fa-bars :hover{
+    color: rgb(246, 228, 228) !important;
+}
+.navbar-toggler-icon {
+    background-image: none !important;
+    display: inline;
+}
+.navbar-toggler:focus{
+    color: rgb(45, 155, 192) !important;
+}
+.carousel-item img {
+    height: 35rem;
+    object-fit: cover;
+}
+.btn{
+    background-color: #346d89;
+    color: #3ac1d8;
+}
+.btn:hover{
+    color: rgb(63, 155, 216) !important;
+    border: 1px solid #2d5695 !important;
+}

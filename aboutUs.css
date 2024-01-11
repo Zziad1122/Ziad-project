@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 60px 0;
+}
+.about-content p{
+    padding-left: 20px;
+
+}
+
+section {
+    background: rgba(13, 167, 213, 0.674);
+    background: radial-gradient(circle, rgba(86, 87, 140, 0.163) 0%, rgba(137, 169, 224, 0.305) 100%);
+    padding: 36px 0;
+    color:#261919;
+}
+.menu-content p{
+    padding-left: 20px;
+}
+menu-item p{
+    padding-left: 60px;
+}
+h3 {
+    padding-left: 20px;
+    font-weight: 400;
+}
+
+h2 {
+    /* padding-left: 20px; */
+    text-align: center;
+}
+section {
+    border-radius: 15px;
+}
